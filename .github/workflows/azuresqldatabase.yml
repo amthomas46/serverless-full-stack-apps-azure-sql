@@ -1,4 +1,4 @@
-name: 'Deploy Azure SQL Database schema'
+name: 'Deploy Azure SQL Database schema '
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - main
+      - main 
 
 jobs:
   deploy_database_job:
